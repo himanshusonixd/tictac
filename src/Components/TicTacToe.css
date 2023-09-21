@@ -1,0 +1,141 @@
+.tictactoecontainer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+
+}
+.tictactoecontainer > h1> span{
+    color: #6ECB5A;
+
+}
+.tictactoecontainer > h1{
+    font-size: 40px;
+
+}
+.row1,.row2,.row3{
+    justify-content: center;
+    display: flex;
+
+
+}
+.boxes{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    margin: 5px;
+    height: 10vw;
+    width: 10vw;
+    /* border: 2px solid red; */
+    background-color: #015D53;
+    border-radius: 12px;  
+}
+.boxes img{
+ 
+    /* object-fit: cover; */
+    width: 10vh;
+    /* transition: ease-in 1s; */
+    /* transition: all ease 1s; */
+    /* filter: grayscale(100); */
+    filter: invert(100);
+    
+ 
+}
+
+
+
+.resetbtn{
+    height: 10vh;
+    margin-top: 2vh;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    width: 20vw;
+    background-color: #028476;
+    border-radius: 25px;
+    outline: none;
+    color:  #6ECB5A;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+}
+
+
+
+
+@media (max-width:1500px) {
+    
+    .boxes{
+        height: 10vw;
+        width: 10vw;
+        /* background-color: rgb(60, 34, 98); */
+    }
+    
+    .resetbtn{
+        height: 10vh;
+        margin-top: 2vh;
+        /* width: 50%; */
+        width: 20vw;
+    }
+
+}
+@media (max-width:1000px) {
+    
+    .boxes{
+        height: 20vw;
+        width: 20vw;
+        /* background-color: rgb(60, 34, 98); */
+    }
+    
+    .resetbtn{
+        height: 10vh;
+        margin-top: 5vh;
+        width: 50%;
+    }
+
+}
+@media (max-width:867px) {
+    .boxes{
+        height: 20vw;
+        width: 20vw;
+        /* background-color: rgb(60, 34, 98); */
+    }
+    
+    .resetbtn{
+        height: 10vh;
+        margin-top: 5vh;
+        width: 50%;
+    }
+
+}
+@media (max-width:650px) {
+    
+    .boxes{
+        height: 25vw;
+        width: 25vw;
+        /* background-color: rgb(60, 34, 98); */
+    }
+    
+    .resetbtn{
+        height: 10vh;
+        margin-top: 5vh;
+        width: 50%;
+    }
+    }
+@media (max-width:450px) {
+    
+.boxes{
+    height: 25vw;
+    width: 25vw;
+    /* background-color: rgb(60, 34, 98); */
+}
+
+.resetbtn{
+    height: 10vh;
+    margin-top: 5vh;
+    width: 50%;
+}
+}
+
